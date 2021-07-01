@@ -13,6 +13,7 @@
     height: 60vh;
     margin-left: 5vw;
     background-image: url('../images/profile-pic.jpg');
+    background-repeat: no-repeat;
     border-radius: 5px;
 }
 
@@ -61,3 +62,84 @@
     font-size: 1.2rem;
     margin: 1.5vh 0 1.5vh 0;
 }
+
+/* Portrait and Landscape (Mobile Devices) */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .about-me{
+        flex-direction: column;
+    }
+
+    .my-pic{
+        margin:0;
+        height: 55vh;
+
+    }
+}
+
+/* Portrait Ipads */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .about-me{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-pic{
+        margin:0;
+        width:51vw;
+        height:40vh;
+    }
+}
+
+/* Landscape Ipads */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .about-me{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-pic{
+        margin:0;
+        width:39vw;
+        height:51vh;
+    }
+
+}
+
+
+/* Portrait  Ipad pro*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .about-me{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-pic{
+        margin:0;
+        width:39vw;
+        height:29vh;
+    }
+
+}
+

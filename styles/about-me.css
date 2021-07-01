@@ -95,8 +95,8 @@
 
     .my-pic{
         margin:0;
-        width:51vw;
-        height:40vh;
+        width:52vw;
+        height:39vh;
     }
 }
 
@@ -124,8 +124,8 @@
 
 /* Portrait  Ipad pro*/
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
 

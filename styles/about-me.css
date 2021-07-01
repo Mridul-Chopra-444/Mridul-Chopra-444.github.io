@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.about-me{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-pic{
+    width: 80vw;
+    height: 60vh;
+    margin-left: 5vw;
+    background-image: url('../images/profile-pic.jpg');
+    border-radius: 5px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    font-family: 'Oswald', sans-serif;
+    font-size:1.1rem;
+}
+
+.display-name{
+    font-size: 5rem;
+    color:#3EA6C1;
+    letter-spacing: -0.1rem;
+}
+
+.name-holder{
+    margin-top: 5vh;
+}
+.view-resume{
+    text-decoration: none;
+    color:#fff;
+    background-color: #000;
+    padding: 2vh 2vw;
+    border-radius:5px;    
+    font-size: 1rem;
+    font-weight:bold;
+    transition: background-color 0.6s ease-out;
+}
+
+.view-resume:hover{
+    background-color: tomato;
+}
+
+.link-holder{
+    margin:5vh 0 5vh 0;
+}
+
+.my-details-container{
+    width:90%;
+    text-align: justify;
+}
+
+.my-details{
+    font-size: 1.2rem;
+    margin: 1.5vh 0 1.5vh 0;
+}

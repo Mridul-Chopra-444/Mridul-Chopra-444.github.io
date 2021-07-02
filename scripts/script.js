@@ -53,7 +53,7 @@ function hide_menu_dropdown() {
 }
 
 function show(item) {
-    let items = ['.about-me', '.technical-skills', 'education-and-work']
+    let items = ['.about-me', '.technical-skills', '.education-and-work']
     items.splice(items.indexOf(item), 1)
 
     $(item).show();

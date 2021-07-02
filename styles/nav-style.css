@@ -3,13 +3,17 @@
 *{
     margin:0;
     padding:0;    
+}
+
+body{
     max-width: 100%;
     overflow-x: hidden;
 }
 
 .navbar{
     z-index:3;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     height: 13vh;
     background-color: #575757;
     box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);

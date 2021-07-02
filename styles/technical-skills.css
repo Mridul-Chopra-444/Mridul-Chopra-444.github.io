@@ -46,3 +46,15 @@
     text-align: center;
     border-bottom:4px solid #3EA6C1;
 }
+
+/* Portrait and Landscape (Mobile Devices)*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .technical-skills{
+        flex-direction: column;
+    }
+
+}

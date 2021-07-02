@@ -1,0 +1,154 @@
+.education-and-work{
+    width:100%;
+    margin-top: 5vh;
+}
+
+.sub-nav{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+}
+
+
+.sub-nav-item{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    color:#3EA6C1;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0 5vw 0 5vw;
+}
+
+.underline{
+    width:55%;
+    height: 0.5vh;
+    border-radius: 5px;
+    background-color: gray;
+    transition: width 1s ease-out;
+}
+
+#education .underline{
+    width: 100%;
+    background-color: tomato;
+}
+
+
+.education{
+    margin: 3vh 0 0 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ew-item{
+    margin: 3vh 0 3vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.ew-logo{
+    width:20vh;
+    height: 20vh;
+    border-radius: 100%;
+    margin: 1vh 2vw 1vh 0;
+    border:2px solid black;
+    background-image: url('../images/spring.png');
+}
+
+.ew-info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ew-name{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin:0 0 2vh 0;
+}
+
+.ew-year,.ew-comments{
+    font-size: 1.1rem;
+    margin-top: 2vh;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .education{
+        margin: 3vh 0 0 0;
+        align-items:center;
+    }
+    .sub-nav{
+        margin-left:0;
+    }
+
+    .sub-nav-item{
+        margin: auto;
+    }
+
+    .ew-logo{
+        height:18vh;
+        width:18vh;
+    }
+}
+
+
+/* Portrait Ipad pro*/
+@media only screen
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .ew-logo{
+        height:15vh;
+        width:15vh;
+    }
+}
+
+/* Landscape ipad pro*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .ew-logo{
+        height:15vh;
+        width:15vh;
+    }
+}
+
+/* Portrait ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .ew-logo{
+        height:15vh;
+        width:15vh;
+    }
+}
+
+/* Landscape ipad*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .ew-logo{
+        height:15vh;
+        width:15vh;
+    }
+}

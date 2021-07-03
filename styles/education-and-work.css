@@ -55,9 +55,9 @@
 .ew-logo{
     width:15vh;
     height: 15vh;
-    border-radius: 100%;
     margin: 1vh 6vw 1vh 0;
-    background-image: url('../images/spring.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .ew-info{
@@ -72,7 +72,7 @@
     font-size: 1.6rem;
     text-decoration: underline;
     margin:0 0 2vh 0;
-    color:#00b300;
+    color:#3973ac;
 }
 
 .ew-name sup{
@@ -208,4 +208,30 @@
         height:10vh;
         width:10vh;
     }
+}
+
+.concordia{
+    background-image: url('../icons/concordia.png');
+    background-size: 80px;
+}
+
+.daviet{
+    background-image: url('../icons/daviet.png');
+    background-size:79px;
+}
+
+.apj{
+    background-image: url('../icons/apj.png');
+    background-size:120px;
+}
+
+.paxcom{
+    background-image: url('../icons/paxcom-logo.png');
+    background-size:120px;
+    width:125px;
+    height: 52px;
+}
+
+.doc{
+    background-image: url('../icons/icons8-document-50.png');
 }

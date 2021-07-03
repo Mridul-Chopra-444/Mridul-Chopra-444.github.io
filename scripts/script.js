@@ -1,6 +1,7 @@
 $(document).ready(() => {
     $('.technical-skills').hide();
     $('.education-and-work').hide();
+    $('.contact-me').hide();
 })
 
 $(".menu-icon").click(function () {
@@ -26,8 +27,14 @@ $('#education-and-work').click(function () {
     hide_menu_dropdown();
 })
 
+$('#contact-me').click(function () {
+    change_colour('#contact-me');
+    show('.contact-me')
+    hide_menu_dropdown();
+})
+
 function change_colour(element) {
-    var list = ['#about-me', '#technical-skills', '#education-and-work'];
+    var list = ['#about-me', '#technical-skills', '#education-and-work', "#contact-me"];
     $(element).css('color', '#3EA6C1');
     list.splice(list.indexOf(element), 1);
     list.forEach(ele => {
@@ -53,7 +60,7 @@ function hide_menu_dropdown() {
 }
 
 function show(item) {
-    let items = ['.about-me', '.technical-skills', '.education-and-work']
+    let items = ['.about-me', '.technical-skills', '.education-and-work', '.contact-me']
     items.splice(items.indexOf(item), 1)
 
     $(item).show();

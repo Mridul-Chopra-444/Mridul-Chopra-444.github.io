@@ -1,0 +1,142 @@
+.contact-me{
+    margin-top: 5vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-intro{
+    font-size:2.5rem;
+    font-family:'Oswald', sans-serif;
+    align-self: center;
+    margin: 0 0 3vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color: #3EA6C1;
+    text-align: center;
+}
+
+.contact-underline, .social-media-upperline{
+    height: 0.3vh;
+    width: 80%;
+    background-color:#d9d9d9;
+    border-radius: 5px;
+}
+
+.contact-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    align-self: center;
+    width: 25vw;
+}
+
+.contact-logo, .social-media-type{
+    width: 13vh;
+    height: 13vh;
+    border-radius:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.contact{
+    margin-left: 3vw;
+}
+
+
+.social-media{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.social-media-type-container{
+    display: flex;
+    flex-direction: row;
+    width: 22vw;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+
+
+.email{
+    background-image: url('../icons/icons8-email-64.png');
+}
+
+.phone{
+    background-image: url('../icons/icons8-phone-48.png');
+}
+
+.linkedin{
+    background-image: url('../icons/icons8-linkedin-48.png');
+}
+
+.twitter{
+    background-image: url('../icons/icons8-twitter-48.png');
+}
+
+.instagram{
+    background-image: url('../icons/icons8-instagram-48.png');
+}
+
+.facebook{
+    background-image: url('../icons/icons8-facebook-48.png');
+}
+
+/* Portrait and Landscape  (Mobile phones)*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-holder{
+        width:80%;
+    }
+
+    .social-media-type-container{
+        width:70%;
+    }
+}
+
+/* Portrait Ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .contact-holder{
+        width:45%;
+    }
+
+    .social-media-type-container{
+        width:70%;
+    }
+
+}
+
+/* Landscape Ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .contact-holder{
+        width:35%;
+    }
+
+    .social-media-type-container{
+        width:70%;
+    }
+
+}

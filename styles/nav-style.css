@@ -8,7 +8,6 @@
 body{
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #e6e6ff;
 }
 
 .navbar{
@@ -26,7 +25,7 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
-    background: url('../icons/menu_white_36dp.svg');
+    background: url('../icons/icons8-menu-24.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -90,6 +89,10 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .name{
+        border:none;
+    }
+
     .menu-icon{
         display: flex;
     }
@@ -120,6 +123,11 @@ body{
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+    .name{
+        border:none;
+    }
+
     .menu-icon{
         display: flex;
         float:right;
@@ -152,6 +160,10 @@ body{
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .name{
+        border:none;
+    }
 
     .navbar{
         height: 10vh;

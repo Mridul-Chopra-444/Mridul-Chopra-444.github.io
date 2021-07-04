@@ -2,6 +2,10 @@ $(document).ready(() => {
     $('.technical-skills').hide();
     $('.education-and-work').hide();
     $('.contact-me').hide();
+
+    if ($('.menu-icon').is(":visible")) {
+        $('.nav-items-container').css('display', 'none');
+    }
 })
 
 $(".menu-icon").click(function () {
@@ -38,7 +42,7 @@ function change_colour(element) {
     $(element).css('color', '#3EA6C1');
     list.splice(list.indexOf(element), 1);
     list.forEach(ele => {
-        $(ele).css('color', '#ffffff')
+        $(ele).css('color', '#ffffff');
     });
 }
 

@@ -8,7 +8,7 @@
 body{
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #e3e0cf;
+    background-color: #fff;
 }
 
 .navbar{
@@ -80,8 +80,11 @@ body{
 }
 
 .nav-item:hover{
+    color: tomato !important;
+}
+
+#about-me{
     color:#3EA6C1;
-    background-color:  #666666;
 }
 
 /* Portrait and Landscape */

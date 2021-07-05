@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 .about-me{
-    margin-top: 5vh;
+    margin-top: 1vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,8 +9,8 @@
 }
 
 .my-pic{
-    width: 80vw;
-    height: 60vh;
+    min-width: 30vw;
+    min-height: 60vh;
     margin-left: 5vw;
     background-image: url('../images/profile-pic.jpg');
     background-repeat: no-repeat;
@@ -71,12 +71,13 @@
 
     .about-me{
         flex-direction: column;
+        margin-top:5vh;
     }
 
     .my-pic{
         margin:0;
         height: 55vh;
-
+        width:80vw;
     }
 }
 
@@ -97,6 +98,8 @@
         margin:0;
         width:52vw;
         height:39vh;
+        margin-bottom: -25vh;
+        margin-top:5vh;
     }
 }
 
@@ -117,6 +120,7 @@
         margin:0;
         width:39vw;
         height:51vh;
+        margin-top:5vh;
     }
 
 }
@@ -139,6 +143,19 @@
         margin:0;
         width:39vw;
         height:29vh;
+        margin-top:5vh;
+        margin-bottom:-33vh;
     }
 
+}
+
+/* Landcape  Ipad pro*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .my-pic{
+        margin-top:5vh;
+    }
 }

@@ -11,9 +11,10 @@
 
 .my-pic{
     min-width: 30vw;
-    min-height: 60vh;
+    min-height: 63vh;
     margin-left: 5vw;
     background-image: url('../images/profile-pic.jpg');
+    background-size:30vw 63vh;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
@@ -79,6 +80,7 @@
         margin:0;
         height: 55vh;
         width:80vw;
+        background-size:80vw 55vh;
     }
 }
 
@@ -101,6 +103,7 @@
         height:39vh;
         margin-bottom: -25vh;
         margin-top:5vh;
+        background-size:52vw 39vh;
     }
 }
 
@@ -122,6 +125,7 @@
         width:39vw;
         height:51vh;
         margin-top:5vh;
+        background-size:39vw 51vh;
     }
 
 }
@@ -146,6 +150,7 @@
         height:29vh;
         margin-top:5vh;
         margin-bottom:-33vh;
+        background-size:39vw 29vh;
     }
 
 }
